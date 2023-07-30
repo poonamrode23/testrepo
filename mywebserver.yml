@@ -3,8 +3,8 @@
   become : yes
   tasks :
   - name : I want to install tree on nodes
-        apt :
+    apt :
         name : tree
         state : present
-        
+
 
